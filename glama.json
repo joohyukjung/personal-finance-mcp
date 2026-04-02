@@ -1,0 +1,31 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "Personal Finance MCP",
+  "description": "Personal finance management - budgets, goals, spending analysis",
+  "package": "@leviai/personal-finance-mcp",
+  "category": "finance",
+  "keywords": [
+    "mcp",
+    "finance",
+    "budget",
+    "expense-tracking",
+    "personal-finance"
+  ],
+  "maintainers": [
+    "btcgodx"
+  ],
+  "repository": "https://github.com/btcgodx/personal-finance-mcp",
+  "type": "local",
+  "runtime": "node",
+  "version": "1.0.0",
+  "author": "Levi AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": false,
+    "prompts": false
+  }
+}
