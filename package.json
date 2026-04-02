@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leviai/personal-finance-mcp.git"
+    "url": "https://github.com/btcgodx/personal-finance-mcp.git"
   },
-  "homepage": "https://github.com/leviai/personal-finance-mcp#readme",
+  "homepage": "https://github.com/btcgodx/personal-finance-mcp#readme",
   "bugs": {
-    "url": "https://github.com/leviai/personal-finance-mcp/issues"
+    "url": "https://github.com/btcgodx/personal-finance-mcp/issues"
   }
 }
