@@ -1,5 +1,6 @@
 {
   "name": "@leviai/personal-finance-mcp",
+  "mcpName": "io.github.leviai-ai/personal-finance",
   "version": "1.0.0",
   "description": "Personal Finance & Budget Management MCP Server - Track expenses, manage budgets, monitor goals, and gain financial insights",
   "main": "src/index.js",
