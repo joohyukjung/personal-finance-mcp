@@ -1,0 +1,42 @@
+{
+  "name": "@leviai/personal-finance-mcp",
+  "version": "1.0.0",
+  "description": "Personal Finance & Budget Management MCP Server - Track expenses, manage budgets, monitor goals, and gain financial insights",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "npm run start -- --stdio"
+  },
+  "keywords": [
+    "mcp",
+    "finance",
+    "budget",
+    "expense-tracking",
+    "personal-finance",
+    "money-management",
+    "financial-planning"
+  ],
+  "author": "Levi AI",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "sqlite3": "^5.1.7",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "personal-finance-mcp": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leviai/personal-finance-mcp.git"
+  },
+  "homepage": "https://github.com/leviai/personal-finance-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/leviai/personal-finance-mcp/issues"
+  }
+}
