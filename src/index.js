@@ -14,7 +14,7 @@ import path from 'path';
 const DB_PATH = process.env.FINANCE_DB_PATH || path.join(process.cwd(), 'finance.db');
 let db;
 
-async function initDatabase() {
+export async function initDatabase() {
   return new Promise((resolve, reject) => {
     db = new Database.Database(DB_PATH, async (err) => {
       if (err) {
@@ -171,7 +171,7 @@ async function updateAccountBalance(account, amount, type) {
     [amount * multiplier, account]);
 }
 
-class PersonalFinanceServer {
+export class PersonalFinanceServer {
   constructor() {
     this.server = new Server(
       {
